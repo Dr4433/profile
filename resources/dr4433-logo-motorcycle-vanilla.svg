@@ -1,24 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="style.css">
-  <title>DR4433</title>
-  <!-- <link rel="icon" src="/resources/dr4433_logo.png"> -->
-  <link rel="icon" href="resources/dr4433_iron_hot_cool_font_v2.svg" type="image/icon type">
-</head>
-<body>
-  <nav class="navbar navbar-light bg-light" id="header">
-    <span class="navbar-brand mb-0 h1"><img src="resources/dr4433_iron_hot_cool_font_v2.svg"></span>
-  </nav>
-  <div class="landing-content">
-    <section>
-      <!-- <p>Thank you for Visiting!</p>
-      <p>We are currently upgrading.</p> -->
-      <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
@@ -254,11 +234,3 @@
            id="tspan18">)</tspan></tspan></text>
   </g>
 </svg>
-
-    </section>
-  </div>
-  <nav class="navbar navbar-light bg-light" id="footer">
-    <span class="navbar-brand mb-0 h1">copyrite</span>
-  </nav>
-</body>
-</html>

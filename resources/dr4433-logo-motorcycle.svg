@@ -1,24 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="style.css">
-  <title>DR4433</title>
-  <!-- <link rel="icon" src="/resources/dr4433_logo.png"> -->
-  <link rel="icon" href="resources/dr4433_iron_hot_cool_font_v2.svg" type="image/icon type">
-</head>
-<body>
-  <nav class="navbar navbar-light bg-light" id="header">
-    <span class="navbar-brand mb-0 h1"><img src="resources/dr4433_iron_hot_cool_font_v2.svg"></span>
-  </nav>
-  <div class="landing-content">
-    <section>
-      <!-- <p>Thank you for Visiting!</p>
-      <p>We are currently upgrading.</p> -->
-      <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
@@ -27,7 +7,7 @@
    viewBox="0 0 34.208717 32.206005"
    version="1.1"
    id="svg1"
-   sodipodi:docname="dr4433_iron_hot_cool_font_v2.svg"
+   sodipodi:docname="dr4433-logo-motorcycle.svg"
    inkscape:export-filename="dr4433-logo-motorcycle.svg"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96"
@@ -127,8 +107,7 @@
     <g
        id="silencer"
        transform="translate(-19.170667,42.287593)"
-       inkscape:label="silencer"
-       style="display:inline">
+       inkscape:label="silencer">
       <path
          style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.206005;stroke-opacity:1"
          d="m 89.876634,62.866306 c 4.582049,-1.507726 9.1641,-3.015453 13.815836,-4.042395 4.65173,-1.026942 9.37314,-1.573097 12.31664,-1.86199 2.94349,-0.288893 4.10906,-0.320523 6.76222,-0.13601 2.65315,0.184512 6.79389,0.585168 10.27266,0.994257 3.47876,0.40909 6.29556,0.826615 8.42083,1.244139 2.12527,0.417525 3.55901,0.835049 4.74042,1.164008 1.18141,0.328958 2.11049,0.569352 2.70067,0.713798 0.59017,0.144446 0.84144,0.192945 1.09272,0.241446"
@@ -166,7 +145,7 @@
     </g>
     <text
        xml:space="preserve"
-       style="font-size:6.16545px;white-space:pre;inline-size:31.2424;display:inline;fill:#c40027;fill-opacity:1;stroke-width:0.306;stroke-dasharray:none"
+       style="font-size:6.16545px;white-space:pre;inline-size:31.2424;fill:#c40027;fill-opacity:1;stroke-width:0.306;stroke-dasharray:none"
        x="74.714058"
        y="77.962494"
        id="text1-7"
@@ -174,91 +153,83 @@
        inkscape:label="33"><tspan
          x="74.714058"
          y="77.962494"
-         id="tspan7"><tspan
+         id="tspan4"><tspan
            style="font-family:'ROG Fonts';-inkscape-font-specification:'ROG Fonts';fill:#000000;stroke:#000000"
-           id="tspan1">33</tspan></tspan></text>
+           id="tspan3">33</tspan></tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:7.86234px;white-space:pre;inline-size:31.2424;display:inline;fill:#c40027;fill-opacity:1;stroke-width:0.306;stroke-dasharray:none"
+       style="font-size:7.86234px;white-space:pre;inline-size:31.2424;fill:#c40027;fill-opacity:1;stroke-width:0.306;stroke-dasharray:none"
        x="74.714058"
        y="77.962494"
        id="char-4-front"
-       transform="matrix(0.95233059,-0.05188195,0.02821022,1.2334558,61.438687,22.620513)"
+       transform="matrix(-1.4499681,-0.04283326,-0.04295139,1.0183296,261.65654,36.19958)"
        inkscape:label="4"
-       inkscape:transform-center-x="0.1521247"
-       inkscape:transform-center-y="-0.41858758"><tspan
+       inkscape:transform-center-x="-0.23161247"
+       inkscape:transform-center-y="-0.3455855"><tspan
          x="74.714058"
          y="77.962494"
-         id="tspan11"><tspan
+         id="tspan6"><tspan
+           style="font-family:'Matura MT Script Capitals';-inkscape-font-specification:'Matura MT Script Capitals';stroke:#000000"
+           id="tspan5">4</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.32196px;white-space:pre;inline-size:31.2424;fill:#c40027;fill-opacity:1;stroke-width:0.306;stroke-dasharray:none"
+       x="74.714058"
+       y="77.962494"
+       id="char-D"
+       transform="matrix(-0.19024835,-1.8014537,-3.8708836,0.40332646,449.57362,218.78697)"
+       inkscape:label="D"
+       inkscape:transform-center-x="-0.22740394"
+       inkscape:transform-center-y="-0.97415388"><tspan
+         x="74.714058"
+         y="77.962494"
+         id="tspan8"><tspan
+           style="font-family:'Curlz MT';-inkscape-font-specification:'Curlz MT';stroke:#000000"
+           id="tspan7">D</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.86234px;white-space:pre;inline-size:31.2424;fill:#c40027;fill-opacity:1;stroke-width:0.306;stroke-dasharray:none"
+       x="74.714058"
+       y="77.962494"
+       id="char-4-bracket"
+       transform="matrix(-0.34573918,-0.88469573,2.3606597,-0.65082478,-21.906379,240.52193)"
+       inkscape:label="4"
+       inkscape:transform-center-x="-0.13905508"
+       inkscape:transform-center-y="0.20720863"><tspan
+         x="74.714058"
+         y="77.962494"
+         id="tspan10"><tspan
            style="font-family:'Matura MT Script Capitals';-inkscape-font-specification:'Matura MT Script Capitals';stroke:#000000"
            id="tspan9">4</tspan></tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:4.32196px;white-space:pre;inline-size:31.2424;display:inline;fill:#c40027;fill-opacity:1;stroke-width:0.306;stroke-dasharray:none"
-       x="74.714058"
-       y="77.962494"
-       id="char-D"
-       transform="matrix(1.8090143,0.0943251,-0.19721856,3.8868389,2.4108902,-188.30569)"
-       inkscape:label="D"
-       inkscape:transform-center-x="-0.96071115"
-       inkscape:transform-center-y="-0.27881237"><tspan
-         x="74.714058"
-         y="77.962494"
-         id="tspan13"><tspan
-           style="font-family:'Curlz MT';-inkscape-font-specification:'Curlz MT';stroke:#000000"
-           id="tspan12">D</tspan></tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:4.32196px;white-space:pre;inline-size:31.2424;display:inline;fill:#c40027;fill-opacity:1;stroke-width:0.306;stroke-dasharray:none"
+       style="font-size:4.32196px;white-space:pre;inline-size:31.2424;fill:#c40027;fill-opacity:1;stroke-width:0.306;stroke-dasharray:none"
        x="74.714058"
        y="77.962494"
        id="char-R"
-       transform="matrix(2.1238591,-0.0016727,-0.23708381,3.8813855,-12.171093,-180.84804)"
+       transform="matrix(8.7697621e-5,-2.1238598,-3.8812075,0.23998036,424.91581,258.64642)"
        inkscape:label="R"
-       inkscape:transform-center-x="-1.1283522"
-       inkscape:transform-center-y="-0.32845308"><tspan
+       inkscape:transform-center-x="-0.32761304"
+       inkscape:transform-center-y="-1.1286033"><tspan
          x="74.714058"
          y="77.962494"
-         id="tspan15"><tspan
+         id="tspan12"><tspan
            style="font-family:'Curlz MT';-inkscape-font-specification:'Curlz MT';stroke:#000000"
-           id="tspan14">R</tspan></tspan></text>
+           id="tspan11">R</tspan></tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:7.86234px;white-space:pre;inline-size:31.2424;display:inline;fill:#c40027;fill-opacity:1;stroke-width:0.306;stroke-dasharray:none"
-       x="74.714058"
-       y="77.962494"
-       id="char-4-bracket"
-       transform="matrix(0.95233059,-0.05188195,0.02821022,1.2334558,66.069615,22.725761)"
-       inkscape:label="4"
-       inkscape:transform-center-x="0.1521247"
-       inkscape:transform-center-y="-0.41858758"><tspan
-         x="74.714058"
-         y="77.962494"
-         id="tspan17"><tspan
-           style="font-family:'Matura MT Script Capitals';-inkscape-font-specification:'Matura MT Script Capitals';stroke:#000000"
-           id="tspan16">4</tspan></tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:7.86234px;white-space:pre;inline-size:31.2424;display:inline;fill:#c40027;fill-opacity:1;stroke-width:0.306;stroke-dasharray:none"
+       style="font-size:7.86234px;white-space:pre;inline-size:31.2424;fill:#c40027;fill-opacity:1;stroke-width:0.306;stroke-dasharray:none"
        x="74.714058"
        y="77.962494"
        id="bracket"
-       transform="matrix(1.4509628,-0.05371988,0.04298085,1.2771514,12.886593,24.167448)"
+       transform="matrix(-0.16193769,-0.93594781,2.4431079,-0.16586458,-43.950857,202.79105)"
        inkscape:label="bracket"
-       inkscape:transform-center-x="0.23177846"
-       inkscape:transform-center-y="-0.43341645"><tspan
+       inkscape:transform-center-x="-0.094837283"
+       inkscape:transform-center-y="0.23081903"><tspan
          x="74.714058"
          y="77.962494"
-         id="tspan19"><tspan
+         id="tspan14"><tspan
            style="font-family:'Matura MT Script Capitals';-inkscape-font-specification:'Matura MT Script Capitals';stroke:#000000"
-           id="tspan18">)</tspan></tspan></text>
+           id="tspan13">)</tspan></tspan></text>
   </g>
 </svg>
-
-    </section>
-  </div>
-  <nav class="navbar navbar-light bg-light" id="footer">
-    <span class="navbar-brand mb-0 h1">copyrite</span>
-  </nav>
-</body>
-</html>

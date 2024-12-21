@@ -71,7 +71,8 @@ x = 74.714058
 y = 77.962494
 font_size = 6.16545
 inline_size = 31.2424
-inpt = [1.3207986,0,0,1.4778892,34.581741,6.0482992] #as given in svg
+# inpt = [1.3207986,0,0,1.4778892,34.581741,6.0482992] #as given in svg OLD
+inpt = [1.0737678,0,0,1.4636758,56.204568,8.5465905] #as given in svg REDESIGN
 
 def makeMat(arr)
   ret_val =  Matrix[[arr[0], arr[2], arr[4] ], [arr[1], arr[3], arr[5]], [0,0,1]]
@@ -86,7 +87,7 @@ end
 proper_form = makeMat(inpt)    
 pos = Matrix.column_vector([x, y, 1])
 transform = proper_form * pos
-theta = (-3.0/180)*Math::PI
+theta = (3.0/180)*Math::PI
 ctheta = Math.cos(theta)
 stheta = Math.sin(theta)
 ttheta = Math.tan(theta)
@@ -101,8 +102,6 @@ puts "nb: transform=>#{pos} to #{transform}"
 #-----------------------------------------------------------------------------------
 x1 = x + font_size
 y1 = y + inline_size/2
-x2 = 0
-y2 = 0
 x_dash = (x1 * (1-ctheta)) + (y1 * stheta)
 y_dash = (y1 * (1-ctheta)) - (x1 * stheta)
 rotation_transform = [ctheta, stheta, -stheta, ctheta, x_dash, y_dash ] #as required by svg

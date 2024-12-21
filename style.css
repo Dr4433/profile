@@ -1,22 +1,22 @@
-
 :root {
   /* --size-variation: clamp(4.5rem, 3.4565rem + 5.2174vw, 7.5rem); */
   --size-variation: clamp(2rem, 12rem + 49vw, 35rem)
 }
+
 /* top level general styles */
-.navbar{
+.navbar {
   display: flex;
   justify-content: center;
   /* background-color: #676543; */
 }
 
-#header > span > img {
+#header>span>img {
   /* position: relative; */
-  padding-left: 1.4em; 
+  padding-left: 1.4em;
   max-height: 10vh;
 }
 
-#header, 
+#header,
 #footer {
   background-color: grey !important;
 }
@@ -27,7 +27,7 @@
   width: 100%;
   height: 10vh;
   display: flex;
-  justify-content:  center;
+  justify-content: center;
   align-items: center;
 }
 
@@ -42,30 +42,93 @@
 
 #text1-7 {
   animation: shake linear 0.15s infinite;
+  animation-delay: 0.5s;
   /* transform: matrix(1.3157725625670003, 0.1288065309247423, -0.11511518300306706, 1.4722653854070513, 43.93192341646484, -3.136912810830119);  */
 }
 
 @keyframes shake {
-  
-  25% { 
+
+  25% {
     /* 5degree roatates about the corner - using only x & y */
     /* transform: matrix(1.3157725625670003, 0.1288065309247423, -0.11511518300306706, 1.4722653854070513, 43.93192341646484, -3.136912810830119);   */
     /* 5degree rotates about center - using x,y and font-size, inline-size */
     /* transform: matrix(1.3157725625670003, 0.1288065309247423, -0.11511518300306706, 1.4722653854070513, 45.761148495683635, -3.8432123044007023);   */
     /* 3degree rotates about center - using x,y and font-size, inline-size */
-    transform: matrix(1.3189884914224925, 0.07734674450311925, -0.06912525773534146, 1.4758638042148091, 41.19713865875072, -0.017923421423814645);  
+    transform: matrix(1.0722962385484422, 0.0766028726226558, -0.05619666459588206, 1.4616698831855288, 61.58267862955542, 2.538708956247871);
   }
+
   50% {
-    transform: matrix(1.3207986,0,0,1.4778892,34.581741,6.0482992);
+    transform: matrix(1.0737678, 0, 0, 1.4636758, 56.204568, 8.5465905);
   }
+
   75% {
     /* transform: matrix(1.3157725625670003, -0.1288065309247423, 0.11511518300306706, 1.4722653854070513, 25.982589888093802, 16.110404433749864); */
     /* transform: matrix(1.3157725625670003, -0.1288065309247423, 0.11511518300306706, 1.4722653854070513, 24.21534037385758, 16.992405392359185); */
-    transform: matrix(1.3189884914224925, -0.07734674450311925, 0.06912525773534146, 1.4758638042148091, 28.25914472360006, 12.493609860204163);
+    transform: matrix(1.0722962385484422, -0.0766028726226558, 0.05619666459588206, 1.4616698831855288, 51.0644957028321, 14.92991425446201);
   }
 }
 
-.landing-content > section {
+#char-4-front {
+  animation: make_front 1s linear;
+  animation-fill-mode: forwards;
+  animation-delay: 0.5s;
+}
+
+@keyframes make_front {
+  100% {
+    transform: matrix(-1.4499681, -0.04283326, -0.04295139, 1.0183296, 261.65654, 36.19958);
+  }
+}
+
+#char-D {
+  animation: make_fuel_tank 1s linear;
+  animation-fill-mode: forwards;
+  animation-delay: 0.5s;
+}
+
+@keyframes make_fuel_tank {
+  100% {
+    transform: matrix(-0.19024835, -1.8014537, -3.8708836, 0.40332646, 449.57362, 218.78697);
+  }
+}
+
+#char-R {
+  animation: make_seat 1s linear;
+  animation-fill-mode: forwards;
+  animation-delay: 0.5s;
+}
+
+@keyframes make_seat {
+  100% {
+    transform: matrix(8.7697621e-5, -2.1238598, -3.8812075, 0.23998036, 424.91581, 258.64642);
+  }
+}
+
+#bracket {
+  animation: make_mudguard 1s linear;
+  animation-fill-mode: forwards;
+  animation-delay: 0.5s;
+}
+
+@keyframes make_mudguard {
+  100% {
+    transform: matrix(-0.16193769, -0.93594781, 2.4431079, -0.16586458, -43.950857, 202.79105);
+  }
+}
+
+#char-4-bracket {
+  animation: make_chain_drive 1s linear;
+  animation-fill-mode: forwards;
+  animation-delay: 0.5s;
+}
+
+@keyframes make_chain_drive {
+  100% {
+    transform: matrix(-0.34573918, -0.88469573, 2.3606597, -0.65082478, -21.906379, 240.52193);
+  }
+}
+
+.landing-content>section {
   /* min-height: 3em; */
   height: auto;
   /* max-height: 100%; */
@@ -86,7 +149,7 @@
   display: flex;
 }
 
-#logo-svg > svg {
+#logo-svg>svg {
   /* scale: 2; */
   max-width: 100%;
   left: 0;
