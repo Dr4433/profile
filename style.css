@@ -1,13 +1,13 @@
 :root {
   /* --size-variation: clamp(4.5rem, 3.4565rem + 5.2174vw, 7.5rem); */
-  --size-variation: clamp(2rem, 12rem + 49vw, 35rem)
+  --size-variation: clamp(2rem, 12rem + 49vw, 35rem);
+  --animation-time: 0.2s;
 }
 
 /* top level general styles */
 .navbar {
   display: flex;
   justify-content: center;
-  /* background-color: #676543; */
 }
 
 #header>span>img {
@@ -18,7 +18,7 @@
 
 #header,
 #footer {
-  background-color: grey !important;
+  background-color: lightgrey !important;
 }
 
 #footer {
@@ -39,38 +39,69 @@
   background-color: lightgrey;
 }
 
+.side-bags{
+  visibility: hidden;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+}
+.smoke > svg {
+  scale: 3;
+  width: 44.33%;
+}
 
-#text1-7 {
-  animation: shake linear 0.15s infinite;
-  animation-delay: 0.5s;
+
+.container {
+  border: 4px solid darkmagenta;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   
+  &:hover {
+    /* background-color:darkgrey; */
+    animation-play-state: reset;
+    .side-bags {
+      visibility: hidden;
+    }
+  }
+}
+.container > svg {
+  scale: 1.5;
+}
+/* .landing-content:hover { */
+  #text1-7 {
+  animation: shake  0.15s infinite;
+  /* animation-delay: 0.5s; */
   /* transform: matrix(1.3157725625670003, 0.1288065309247423, -0.11511518300306706, 1.4722653854070513, 43.93192341646484, -3.136912810830119);  */
-}
-
-@keyframes shake {
-
-  25% {
-    /* 5degree roatates about the corner - using only x & y */
-    /* transform: matrix(1.3157725625670003, 0.1288065309247423, -0.11511518300306706, 1.4722653854070513, 43.93192341646484, -3.136912810830119);   */
-    /* 5degree rotates about center - using x,y and font-size, inline-size */
-    /* transform: matrix(1.3157725625670003, 0.1288065309247423, -0.11511518300306706, 1.4722653854070513, 45.761148495683635, -3.8432123044007023);   */
-    /* 3degree rotates about center - using x,y and font-size, inline-size */
-    transform: matrix(1.0722962385484422, 0.0766028726226558, -0.05619666459588206, 1.4616698831855288, 61.58267862955542, 2.538708956247871);
   }
 
-  50% {
-    transform: matrix(1.0737678, 0, 0, 1.4636758, 56.204568, 8.5465905);
+  @keyframes shake {
+
+    25% {
+      /* 5degree roatates about the corner - using only x & y */
+      /* transform: matrix(1.3157725625670003, 0.1288065309247423, -0.11511518300306706, 1.4722653854070513, 43.93192341646484, -3.136912810830119);   */
+      /* 5degree rotates about center - using x,y and font-size, inline-size */
+      /* transform: matrix(1.3157725625670003, 0.1288065309247423, -0.11511518300306706, 1.4722653854070513, 45.761148495683635, -3.8432123044007023);   */
+      /* 3degree rotates about center - using x,y and font-size, inline-size */
+      transform: matrix(1.0722962385484422, 0.0766028726226558, -0.05619666459588206, 1.4616698831855288, 61.58267862955542, 2.538708956247871);
+    }
+
+    50% {
+      transform: matrix(1.0737678, 0, 0, 1.4636758, 56.204568, 8.5465905);
+    }
+
+    75% {
+      /* transform: matrix(1.3157725625670003, -0.1288065309247423, 0.11511518300306706, 1.4722653854070513, 25.982589888093802, 16.110404433749864); */
+      /* transform: matrix(1.3157725625670003, -0.1288065309247423, 0.11511518300306706, 1.4722653854070513, 24.21534037385758, 16.992405392359185); */
+      transform: matrix(1.0722962385484422, -0.0766028726226558, 0.05619666459588206, 1.4616698831855288, 51.0644957028321, 14.92991425446201);
+    }
   }
 
-  75% {
-    /* transform: matrix(1.3157725625670003, -0.1288065309247423, 0.11511518300306706, 1.4722653854070513, 25.982589888093802, 16.110404433749864); */
-    /* transform: matrix(1.3157725625670003, -0.1288065309247423, 0.11511518300306706, 1.4722653854070513, 24.21534037385758, 16.992405392359185); */
-    transform: matrix(1.0722962385484422, -0.0766028726226558, 0.05619666459588206, 1.4616698831855288, 51.0644957028321, 14.92991425446201);
-  }
-}
 
 #char-4-front {
-  animation: make_front 1s linear;
+  animation: make_front var(--animation-time) linear;
   animation-fill-mode: forwards;
+  /* animation-timing-function: cubic-bezier(0,1.08,1,.01); */
   animation-delay: 0.5s;
 }
 
@@ -78,10 +109,13 @@
   100% {
     transform: matrix(-1.4499681, -0.04283326, -0.04295139, 1.0183296, 261.65654, 36.19958);
   }
+  /* 75% {
+    transform: matrix(0.95233059,-0.05188195,0.02821022,1.2334558,61.438687,22.620513);
+  } */
 }
 
 #char-D {
-  animation: make_fuel_tank 1s linear;
+  animation: make_fuel_tank var(--animation-time) linear;
   animation-fill-mode: forwards;
   animation-delay: 0.5s;
 }
@@ -90,10 +124,13 @@
   100% {
     transform: matrix(-0.19024835, -1.8014537, -3.8708836, 0.40332646, 449.57362, 218.78697);
   }
+  /* 75% {
+    transform: matrix(1.8090143,0.0943251,-0.19721856,3.8868389,2.4108902,-188.30569);
+  } */
 }
 
 #char-R {
-  animation: make_seat 1s linear;
+  animation: make_seat var(--animation-time) linear;
   animation-fill-mode: forwards;
   animation-delay: 0.5s;
 }
@@ -102,10 +139,13 @@
   100% {
     transform: matrix(8.7697621e-5, -2.1238598, -3.8812075, 0.23998036, 424.91581, 258.64642);
   }
+  /* 75% {
+    transform: matrix(2.1238591,-0.0016727,-0.23708381,3.8813855,-12.171093,-180.84804);
+  } */
 }
 
 #bracket {
-  animation: make_mudguard 1s linear;
+  animation: make_mudguard var(--animation-time) linear;
   animation-fill-mode: forwards;
   animation-delay: 0.5s;
 }
@@ -114,10 +154,13 @@
   100% {
     transform: matrix(-0.16193769, -0.93594781, 2.4431079, -0.16586458, -43.950857, 202.79105);
   }
+  /* 75% {
+    transform: matrix(1.4509628,-0.05371988,0.04298085,1.2771514,12.886593,24.167448);
+  } */
 }
 
 #char-4-bracket {
-  animation: make_chain_drive 1s linear;
+  animation: make_chain_drive var(--animation-time) linear;
   animation-fill-mode: forwards;
   animation-delay: 0.5s;
 }
@@ -126,21 +169,25 @@
   100% {
     transform: matrix(-0.34573918, -0.88469573, 2.3606597, -0.65082478, -21.906379, 240.52193);
   }
+  /* 95% {
+    transform: matrix(0.95233059,-0.05188195,0.02821022,1.2334558,66.069615,22.725761);
+  } */
 }
+
+/* } /* .landing-content */
 
 .landing-content>section {
   /* min-height: 3em; */
-  height: auto;
+  height: 42px;
   /* max-height: 100%; */
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: space-around;
   max-width: 50%;
   position: relative;
   left: 25%;
   margin-top: 42vh;
-  font-size: 1.44rem;
   /* color: ivory; */
 }
 
