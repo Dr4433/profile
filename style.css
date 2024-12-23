@@ -58,6 +58,11 @@
     top: 2.4vh;
     left: 1.3vw;
   }
+  @media (max-width: 266px) {
+    scale: 5.3;
+    top: 2vh;
+    left: -1vw;    
+  }
 }
 
 .container {
@@ -70,6 +75,9 @@
   @media (max-width: 550px) {
     scale: 3;
   }
+  @media (max-width:  266px){
+    scale: 4;
+  }
 }
 
 #g1 {
@@ -80,12 +88,15 @@
     transform: matrix(0.48870913,0,0,0.30637106,62.644062,89.085362);
   }
 }
-
+#tail-pipe-smoke {
+  @media (max-width: 266px) {
+    opacity: 0;
+  }
+}
 @keyframes fade_in {
   0%{
     opacity: 0;
   }
-
   50%{
     opacity: 0;
   }
@@ -96,7 +107,7 @@
 }
 
 #text1-7 {
-animation: shake  0.15s infinite;
+animation: shake  0.15s infinite 1s;
 }
 @keyframes shake {
   25% {
@@ -168,3 +179,17 @@ animation: shake  0.15s infinite;
   left: 25%;
   margin-top: 30vh;
 }
+
+#reset-animation-button {
+  position: relative;
+  left: 47vw;
+  top: 3vh;
+  color: black;
+  &:hover {
+    scale: 1.1;
+    background-color:  maroon;
+    border: 2px solid black;
+    color: ivory;
+  }
+}
+

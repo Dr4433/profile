@@ -31,7 +31,7 @@
    height="17.470688mm"
    viewBox="0 0 95.921974 17.470688"
    version="1.1"
-   id="svg1"
+   id="smoke"
    inkscape:export-filename="smoke.svg"
    inkscape:export-xdpi="7.8215752"
    inkscape:export-ydpi="7.8215752"
@@ -314,7 +314,7 @@
    height="32.206005mm"
    viewBox="0 0 34.208717 32.206005"
    version="1.1"
-   id="svg1"
+   id="motorcycle"
    sodipodi:docname="dr4433_iron_hot_cool_font_v2.svg"
    inkscape:export-filename="dr4433-logo-motorcycle.svg"
    inkscape:export-xdpi="96"
@@ -550,8 +550,19 @@
     </section>
   </div>
   <div class="lowerline"></div>
+  <button class="btn btn-outline-warning" id="reset-animation-button" onclick=replayAnimations()>Reset!</button>
   <nav class="navbar navbar-light bg-light" id="footer">
     <span class="navbar-brand mb-0 h1">copyrite</span>
   </nav>
 </body>
+<script>
+
+      const replayAnimations = () => {
+         document.getAnimations().forEach((anim) => {
+            anim.cancel();
+            anim.play();
+         });
+      };
+   
+</script>
 </html>
