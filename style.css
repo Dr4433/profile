@@ -32,6 +32,13 @@
 }
 
 /* item wise specific styles */
+.message {
+  justify-self: center;
+  position: relative;
+  top: 10vh;
+  color: maroon;
+  font-size: 2rem;
+}
 
 .upperline,
 .lowerline {
@@ -183,7 +190,7 @@ animation: shake  0.15s infinite 1s;
 #reset-animation-button {
   position: relative;
   left: 47vw;
-  top: 3vh;
+  top: 10vh;
   color: black;
   &:hover {
     scale: 1.1;
