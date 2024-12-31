@@ -38,8 +38,15 @@
   top: 10vh;
   color: maroon;
   font-size: 2rem;
+  border: 2px solid green;
 }
 
+#timer {
+  font-size: 2rem;
+  color: maroon;
+  display: flex;
+  justify-content: center;
+}
 .upperline,
 .lowerline {
   min-height: 25px;
