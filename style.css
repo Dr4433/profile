@@ -32,13 +32,17 @@
 }
 
 /* item wise specific styles */
-.message {
+.message > p  {
   justify-self: center;
   position: relative;
   top: 10vh;
   color: maroon;
   font-size: 2rem;
   border: 2px solid green;
+  border-radius: .4433rem;
+  min-width: 10rem;
+  min-height: 5rem;
+  margin-bottom: 0; /* counter balance for reboot.scss*/
 }
 
 #timer {
@@ -46,6 +50,8 @@
   color: maroon;
   display: flex;
   justify-content: center;
+  align-items: center;
+  padding: 1rem;
 }
 .upperline,
 .lowerline {
