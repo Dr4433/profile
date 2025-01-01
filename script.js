@@ -1,6 +1,20 @@
+//---------------------------------------------------------
+// Reset button - replayAnimations()
+//---------------------------------------------------------
+
+const replayAnimations = (play_again_flag) => {
+  document.getAnimations().forEach((anim) => {
+   anim.cancel();
+   if (play_again_flag) {anim.play();}
+  });
+};
+
+//---------------------------------------------------------
+// Count down timer 
+//---------------------------------------------------------
 // Set the time duration we're counting down to 
 let animation_delay = (1000 * (5/*sec*/));
-let actual_timer = (1000 * (60/*sec*/) );
+let actual_timer = (1000 * (10/*sec*/) );
 let correction = (1000 * (2/*sec*/));
 let counDownTime = (new Date().getTime()) + animation_delay + actual_timer + correction;
 let preCountDownTime = (new Date().getTime()) + animation_delay;
@@ -36,6 +50,7 @@ let x = setInterval(function() {
       clearInterval(x);
       document.getElementById("timer").innerHTML = "EXPIRED";
       alert("Time's up!!");
+      replayAnimations(false)
       // console.log("time up")
     }
   }

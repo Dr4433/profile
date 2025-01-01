@@ -555,17 +555,9 @@
     </section>
   </div>
   <div class="lowerline"></div>
-  <button class="btn btn-outline-warning" id="reset-animation-button" onclick=replayAnimations()>Reset!</button>
+  <button class="btn btn-outline-warning" id="reset-animation-button" onclick=replayAnimations(true)>Reset!</button>
   <nav class="navbar navbar-light bg-light" id="footer">
     <span class="navbar-brand mb-0 h1">copyrite</span>
   </nav>
-</body>
-<script>
-   const replayAnimations = () => {
-      document.getAnimations().forEach((anim) => {
-       anim.cancel();
-       anim.play();
-      });
-   };
-</script>
+</body> 
 </html>
