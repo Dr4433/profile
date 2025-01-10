@@ -108,7 +108,7 @@ body {
 }
 
 #g1 {
-  animation: make_rear_wheel var(--animation-time) linear var(--animation-delay) forwards;
+  animation: make_rear_wheel var(--animation-time) linear 1.15s forwards;
 }
 @keyframes make_rear_wheel {
   100%{
