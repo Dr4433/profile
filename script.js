@@ -14,7 +14,7 @@ const replayAnimations = (play_again_flag) => {
 //---------------------------------------------------------
 // Set the time duration we're counting down to 
 let animation_delay = (1000 * (5/*sec*/));
-let actual_timer = (1000 * (10/*sec*/) );
+let actual_timer = (1000 * (60/*sec*/) *(25/*min*/) );
 let correction = (1000 * (2/*sec*/));
 let counDownTime = (new Date().getTime()) + animation_delay + actual_timer + correction;
 let preCountDownTime = (new Date().getTime()) + animation_delay;
@@ -48,7 +48,7 @@ let x = setInterval(function() {
     }
     else {
       clearInterval(x);
-      document.getElementById("timer").innerHTML = "EXPIRED";
+      document.getElementById("timer").innerHTML = "Fuel up!";
       alert("Time's up!!");
       replayAnimations(false)
       // console.log("time up")

@@ -4,6 +4,10 @@
   --animation-delay: 2.5s;
 }
 
+body {
+  background-color: black !important; 
+}
+
 /* navbar, header, footer */
 .navbar {
   display: flex;
@@ -36,9 +40,9 @@
   justify-self: center;
   position: relative;
   top: 10vh;
-  color: maroon;
+  color: orangered;
   font-size: 2rem;
-  border: 2px solid green;
+  border: 2px solid purple;
   border-radius: .4433rem;
   min-width: 10rem;
   min-height: 5rem;
@@ -47,11 +51,14 @@
 
 #timer {
   font-size: 2rem;
-  color: maroon;
+  color: orangered;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 1rem;
+  &:hover{
+    background-color:gold;
+  }
 }
 .upperline,
 .lowerline {
@@ -101,9 +108,9 @@
 }
 
 #g1 {
-  animation: make_wheel var(--animation-time) linear var(--animation-delay) forwards;
+  animation: make_rear_wheel var(--animation-time) linear var(--animation-delay) forwards;
 }
-@keyframes make_wheel {
+@keyframes make_rear_wheel {
   100%{
     transform: matrix(0.48870913,0,0,0.30637106,62.644062,89.085362);
   }
@@ -188,8 +195,13 @@ animation: shake  0.15s infinite 1s;
   }
 }
 
+
+.landing-content {
+  background-color: whitesmoke !important;
+}
+
 .landing-content>section {
-  height: 42px;
+  height: 100px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -204,11 +216,11 @@ animation: shake  0.15s infinite 1s;
   position: relative;
   left: 47vw;
   top: 10vh;
-  color: black;
+  color: deeppink;
   &:hover {
     scale: 1.1;
-    background-color:  maroon;
-    border: 2px solid black;
+    background-color:  blue;
+    border: 2px solid gold;
     color: ivory;
   }
 }
